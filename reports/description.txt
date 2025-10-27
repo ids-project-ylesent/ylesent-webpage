@@ -1,0 +1,5 @@
+<p>YleSent is a sentiment analysis project that processes Yle news articles. It predicts sentiment value using a logistic regression model and visualizes average sentiment trends by day and month. The goal is to explore how public sentiment evolves over time and influential keywords.</p>
+<p><b>Motivation</b></p>
+<p>Motivation for this project was that we felt that the news often feels too negative, which can affect mood and perception. People who follow news regularly might be interested if news coverage is too negative or balanced. We want to show trends clearly and help people put news negativity in perspective. This will help users to consume news more critically and makes it easier to spot trends in the news sentiment. We want to increase transparency about how media present news.</p>
+<p><b>Challenges</b></p>
+<p>The sentiment analysis model presented some challenges because the training data (ScandiSent) differs from actual news data in style and content. To address this, we used fine-tuning techniques to adapt the model to the news domain, improving prediction accuracy and making the visualizations more meaningful.</p>
